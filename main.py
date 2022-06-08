@@ -12,9 +12,9 @@ from bs4 import BeautifulSoup
 
 import datetime
 
-from kivy.core.window import Window
+#from kivy.core.window import Window
 
-Window.size = (360, 640)
+#Window.size = (360, 640)
 # ----------------------------- Поиск значения индикатора -------------------------------
 # парсинг сайтов
 def get_html(url):
